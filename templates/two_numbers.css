@@ -1,0 +1,49 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: navajowhite;
+    color: #EAD8B1;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+body {
+    font-family: "Al Bayan", cursive;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 5px;
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+    color: darkred ;
+}
+
+.op {
+    padding: 5px;
+    border: 3px solid green;
+    border-radius: 5px;
+    color: darkred ;
+}
+
+.button {
+    padding: 5px;
+    border: 3px solid brown;
+    border-radius: 5px;
+    color: darkred ;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: navajowhite;
+    color: #EAD8B1;
+}
