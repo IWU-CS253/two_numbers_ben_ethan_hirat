@@ -27,5 +27,8 @@ def calculate():
         result = int(num1) * int(num2)
     elif (op == "/" and num2 != 0):
         result = int(num1) / int(num2)
+    elif (op == "/" and num2 == 0):
+        return render_template("fail.html")
     return render_template("results.html", result=result)
+
 
