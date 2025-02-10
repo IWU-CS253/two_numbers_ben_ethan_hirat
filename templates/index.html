@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <form action="/calculate" method="post">
+        <input class="input" name="num1" type="text" required placeholder="Number 1">
+        <select class="op" name="op">
+            <option disabled selected>Operation</option>
+            {% for op in operations %}
+                <option value="{{ op }}">{{ op }}</option>
+            {% endfor %}
+        </select>
+        <input class="input" name="num2" type="text" required placeholder="Number 2">
+        <button class="submit" type="submit">Calculate</button>
+    </form>
+
+{% endblock %}
